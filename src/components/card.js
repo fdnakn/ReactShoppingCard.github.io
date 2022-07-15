@@ -10,7 +10,7 @@ export default function card({item,handleClick}) {
         <div className='details'>
             <p>{title}</p>
             <p>{author}</p>
-            <p>{price}</p>
+            <p>{price} TL</p>
             <button onClick={()=> handleClick(item)}>Add to Card</button>
         </div>
     </div>
